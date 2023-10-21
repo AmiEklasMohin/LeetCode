@@ -47,6 +47,6 @@ int main() {
     cin >> a >> b;
     Solution ans;
     bin_add = ans.addBinary(a, b);
-    cout << "\"" << bin_add << "\"" <<endl;
+    cout << bin_add << endl;
     return 0;
 } 
