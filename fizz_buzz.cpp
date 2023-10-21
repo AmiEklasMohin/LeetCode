@@ -1,7 +1,7 @@
 /*https://leetcode.com/problems/fizz-buzz/*/
 #include <iostream>
 #include <vector>
-#include <cstring>
+#include <string>
 using namespace std;
 
 class Solution {
