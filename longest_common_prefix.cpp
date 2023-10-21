@@ -1,7 +1,7 @@
 /*https://leetcode.com/problems/longest-common-prefix/*/
 #include <iostream>
 #include <vector>
-#include <cstring>
+#include <string>
 using namespace std;
 
 class Solution {
