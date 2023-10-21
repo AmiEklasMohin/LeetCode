@@ -22,9 +22,9 @@ public:
 };
 
 int main() {
-    int n, in, val;
+    int number_of_element, in, val;
     vector<int> nums;
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 1; i <= number_of_element; ++i) {
         cin >> in;
         nums.push_back(in);
     }
