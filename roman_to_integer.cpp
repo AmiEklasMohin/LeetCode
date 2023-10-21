@@ -7,7 +7,7 @@ class Solution {
 public:
     int romanToInt(string s) {
         int integer_value = 0;
-        for (int i = (s.length() - 1); i >= 0 ; --i) {
+        for (int i = (s.length() - 1); i >= 0; --i) {
             if (s[i] == 'I') {
                 integer_value += 1;
             } else if (s[i] == 'V') {
