@@ -1,6 +1,6 @@
 /*https://leetcode.com/problems/add-binary/*/
 #include <iostream>
-#include <cstring>
+#include <string>
 using namespace std;
 
 class Solution {
@@ -43,10 +43,10 @@ public:
 };
 
 int main() {
-    string a, b, bin_add;
-    cin >> a >> b;
+    string binary_a, binary_b, binary_sum;
+    cin >> binary_a >> binary_b;
     Solution ans;
-    bin_add = ans.addBinary(a, b);
-    cout << bin_add << endl;
+    binary_sum = ans.addBinary(binary_a, binary_b);
+    cout << binary_sum << endl;
     return 0;
 } 
