@@ -40,7 +40,7 @@ int main() {
     if (indices.size() == 0) {
         cout << -1 << endl;
     } else {
-        cout << "[" << indices[0] << "," << indices[1] << "]" << endl;
+        cout << indices[0] << " " << indices[1] << endl;
     }
     return 0;
 } 
