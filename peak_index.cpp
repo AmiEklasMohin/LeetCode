@@ -6,13 +6,14 @@ using namespace std;
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& arr) {
-        int n = arr.size();
-        for (int i = 1; i < (n - 1); ++i) {
+        int peak_index{0};
+        for (int i = 1; i < arr.size(); ++i) {
             if (arr[i] > arr[i - 1] and arr[i] > arr[i + 1]) {
-                return i;
+                peak_index = i;
+                break;
             }
         }
-        return 0;
+        return peak_index;
     }
 };
 
