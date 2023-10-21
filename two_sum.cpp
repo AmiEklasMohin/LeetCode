@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_set>
+#include <algorithm>
 using namespace std;
 
 class Solution {
@@ -27,17 +28,17 @@ public:
 };
 
 int main() {
-    int n, in, target;
+    int number_of_elements, target, in;
     vector<int> nums;
-    cin >> n;
-    for (int i = 1; i <= n; ++i) {
+    cin >> number_of_elements;
+    for (int i = 1; i <= number_of_elements; ++i) {
         cin >> in;
         nums.push_back(in);
     }
     cin >> target;
     Solution ans;
     vector<int> indices = ans.twoSum(nums, target);
-    if (indices.size() == 0) {
+    if (indices.size() != 2) {
         cout << -1 << endl;
     } else {
         cout << indices[0] << " " << indices[1] << endl;
