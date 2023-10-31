@@ -33,7 +33,7 @@ int main() {
     }
     Solution ans;
     vector<int> result = ans.findDisappearedNumbers(nums);
-    for (int x : result) {
+    for (int x: result) {
         cout << x << " ";
     }
     cout << endl;
