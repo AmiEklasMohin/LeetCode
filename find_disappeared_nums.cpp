@@ -34,7 +34,7 @@ int main() {
     }
     vector<int> result = ans.findDisappearedNumbers(nums);
     for (auto x: result) {
-        cout << x <<' ';
+        cout << x << ' ';
     }
     cout << endl;
     return 0;
